@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/interactive-pricing-component/static/css/main.cad9ce01.css",
-    "main.js": "/interactive-pricing-component/static/js/main.03f73850.js",
-    "static/js/787.2bc48dcf.chunk.js": "/interactive-pricing-component/static/js/787.2bc48dcf.chunk.js",
-    "index.html": "/interactive-pricing-component/index.html",
-    "static/media/icon-slider.svg": "/interactive-pricing-component/static/media/icon-slider.cbca35e0d11c560ba351.svg",
-    "static/media/pattern-circles.svg": "/interactive-pricing-component/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
-    "static/media/bg-pattern.svg": "/interactive-pricing-component/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
-    "static/media/icon-check.svg": "/interactive-pricing-component/static/media/icon-check.83c38a48815855ecc2d7.svg",
-    "main.cad9ce01.css.map": "/interactive-pricing-component/static/css/main.cad9ce01.css.map",
-    "main.03f73850.js.map": "/interactive-pricing-component/static/js/main.03f73850.js.map",
-    "787.2bc48dcf.chunk.js.map": "/interactive-pricing-component/static/js/787.2bc48dcf.chunk.js.map"
+    "main.css": "/interactive-pricing-component-main/static/css/main.a38d29ff.css",
+    "main.js": "/interactive-pricing-component-main/static/js/main.e5420b53.js",
+    "static/js/787.2bc48dcf.chunk.js": "/interactive-pricing-component-main/static/js/787.2bc48dcf.chunk.js",
+    "index.html": "/interactive-pricing-component-main/index.html",
+    "static/media/icon-slider.svg": "/interactive-pricing-component-main/static/media/icon-slider.cbca35e0d11c560ba351.svg",
+    "static/media/pattern-circles.svg": "/interactive-pricing-component-main/static/media/pattern-circles.9f6ed14bb3b0084b05a9.svg",
+    "static/media/bg-pattern.svg": "/interactive-pricing-component-main/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
+    "static/media/icon-check.svg": "/interactive-pricing-component-main/static/media/icon-check.83c38a48815855ecc2d7.svg",
+    "main.a38d29ff.css.map": "/interactive-pricing-component-main/static/css/main.a38d29ff.css.map",
+    "main.e5420b53.js.map": "/interactive-pricing-component-main/static/js/main.e5420b53.js.map",
+    "787.2bc48dcf.chunk.js.map": "/interactive-pricing-component-main/static/js/787.2bc48dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad9ce01.css",
-    "static/js/main.03f73850.js"
+    "static/css/main.a38d29ff.css",
+    "static/js/main.e5420b53.js"
   ]
 }
