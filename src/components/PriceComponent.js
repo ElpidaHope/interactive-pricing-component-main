@@ -56,10 +56,10 @@ const PriceComponent = () => {
         }
 
         else {
-            let price = 'price'
+            let priced = 'price'
             const newInfos = infos.map(info => {
                 let y = Object.assign({}, info)
-                y[price] = y[price] - y[price] * 0.25
+                y[priced] = y[priced] - y[priced] * 0.25
                 return y
             })
             const newInfo = newInfos.filter(info => info.id == e.target.value)
@@ -71,16 +71,17 @@ const PriceComponent = () => {
         e.target.checked ? setTime('year') : setTime('month')
         setCheck(!check)
         if (!check) {
-            let price = 'price'
-            const newInfos = infos.map(info => {
+            let priced = 'price'
+            let newInfos = infos.map(info => {
                 let y = Object.assign({}, info)
-                y[price] = y[price] - y[price] * 0.25
+                y[priced] = y[priced] - y[priced] * 0.25
                 return y
             })
-            const newInfo = newInfos.filter(info => info.id == e.target.value)
+            let newInfo = newInfos.filter(info => info.id == e.target.value)
+            console.log(newInfo, 'if')
             setPrice(newInfo[0].price)
         } else {
-            const newerInfo = infos.filter(info => info.id == e.target.value)
+            let newerInfo = infos.filter(info => info.id == e.target.value)
             setPrice(newerInfo[0].price)
         }
     }
@@ -108,7 +109,7 @@ const PriceComponent = () => {
         <div className="toggle-container">
             <p>Monthly Billing</p>
             <label className="switch">
-                <input type="checkbox" onChange={toggle}  checked={check} />
+                <input type="checkbox" onChange={toggle}  checked={check} value={value} />
                 <span className="slider round"></span>
             </label>
             <p>Yearly Billing <span>-25%</span></p>
